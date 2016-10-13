@@ -12,13 +12,14 @@
 }
 
 .gallery-cell {
-  width: 100%;
-  height: 200px;
+  width: 750px;
+  height: auto;
   margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
+/*  background: #8C8;*/
+/*  counter-increment: gallery-cell;*/
 }
 
+/*
 .gallery-cell:before {
   display: block;
   text-align: center;
@@ -27,6 +28,7 @@
   font-size: 80px;
   color: white;
 }
+*/
 .flickity-prev-next-button {
   width: 100px;
   height: 100px;
