@@ -19,7 +19,6 @@
   counter-increment: gallery-cell;
 }
 
-/* cell number */
 .gallery-cell:before {
   display: block;
   text-align: center;
@@ -27,4 +26,23 @@
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
 }
